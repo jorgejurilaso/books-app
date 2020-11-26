@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+h1, h2, h3, nav, footer {
+  font-family: Georgia, Cambria, "Times New Roman", serif;
+}
+body {
+  font-family: "Lucida Sans", Verdana, Arial, sans-serif;
+  font-size: 80%;
+}
+div#search
+{
+  margin-top: 1em;
+  margin: 0.25em auto;
+  background-color: #EBF4FF;
+  padding: 1em;
+  border: 1.5pt solid #95BEF0;
+  width: 80%;
+}
+
+
+div#listSaveBook {
+  background-color: #EBF4FF;
+  margin-top: 1em;
+  background-color: #FAFCFF;
+  margin: 0.25em auto;
+  padding: 1em;
+  border: 1.5pt solid #95BEF0;
+  width: 80%;
+}
+
+div#listBook {
+  background-color: #EBF4FF;
+  margin-top: 1em;
+  background-color: #FAFCFF;
+  margin: 0.25em auto;
+  padding: 1em;
+  border: 1.5pt solid #95BEF0;
+  width: 80%;
+}
+
+caption {
+  background-color: #95BEF0;
+  padding: 0.5em 0.5em;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  
+}
+
+table td{
+  border-top: 1pt solid #95BEF0;
+  line-height: 1.5em;
+  vertical-align: middle;
+  padding: 0.5em 0.75em;
+  text-align: left;
+}
+
+tbody
+{
+  border-top: 1pt solid #95BEF0;
+  line-height: 1.5em;
+  vertical-align: middle;
+  padding: 0.5em 0.75em;
+}
+table th {
+  text-align: left;
+  padding: 0.25em 0.75em;
+  width: 250px;
+}
+thead
+{
+  text-align: left;
+  padding: 0.25em 0.75em;
+}
+table thead {
+  background-color: #EBF4FF ;
+}
+
+table tbody td:first-child  {
+  text-align: left;
+
+  padding: 0.5em 0em;
+}
